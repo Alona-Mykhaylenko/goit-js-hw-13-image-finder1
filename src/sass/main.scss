@@ -4,4 +4,49 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+// @import './example';
+
+ul {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.image {
+  object-fit: cover;
+  width: 640px;
+  height: 390px;
+}
+
+.search-form {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.load-more-btn {
+  display: flex;
+  margin-left: 1200px;
+  margin-bottom: 30px;
+  width: 130px;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 25px;
+}
+
+.hidden {
+  display: none;
+}
